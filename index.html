@@ -6,10 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS</title>
     <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./app.css">
 </head>
 <body>
-    <button id="rock" class="btn">Rock</button>
-    <button id="paper" class="btn">Paper</button>
-    <button id="scissors" class="btn">Scissors</button>
+    <div id="scores">
+        <div id = "playerScore">
+            <div>Your Score:</div>
+            <div id="playerScoreReadout">0</div>
+        </div>
+        <div id="computerScore">
+            <div>Computer Score:</div>
+            <div id="computerScoreReadout">0</div>
+        </div>
+    </div>
+    <div id="buttons">
+        <button id="rock" class="btn">Rock</button>
+        <button id="paper" class="btn">Paper</button>
+        <button id="scissors" class="btn">Scissors</button>
+    </div>
+    <div id="container"></div>
 </body>
 </html>
